@@ -23,7 +23,7 @@ import PackageDescription
 
 let package = Package(
 	dependencies: [
-		.Package(url: "https://github.com/Zewo/CLibpq.git", majorVersion: 0, minor: 1)
+		.Package(url: "https://github.com/Zewo/CLibpq.git", majorVersion: 0, minor: 2)
 	]
 )
 
@@ -31,9 +31,9 @@ let package = Package(
 
 ## Community
 
-[![Slack](http://s13.postimg.org/ybwy92ktf/Slack.png)](https://zewo-slackin.herokuapp.com)
+[![Slack](http://s13.postimg.org/ybwy92ktf/Slack.png)](http://slack.zewo.io)
 
-Join us on [Slack](https://zewo-slackin.herokuapp.com).
+Join us on [Slack](http://slack.zewo.io).
 
 License
 -------
