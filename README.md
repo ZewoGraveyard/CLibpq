@@ -6,7 +6,7 @@ CLibpq
 [![License MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat)](https://tldrlegal.com/license/mit-license)
 [![Slack Status](http://slack.zewo.io/badge.svg)](http://slack.zewo.io)
 
-**CLibpq** provides PostgreSQL for **Swift 2.2**.
+**CLibpq** provides PostgreSQL for **Swift 3.0**.
 
 ## Installation
 
@@ -23,10 +23,16 @@ import PackageDescription
 
 let package = Package(
 	dependencies: [
-		.Package(url: "https://github.com/Zewo/CLibpq.git", majorVersion: 0, minor: 2)
+		.Package(url: "https://github.com/Zewo/CLibpq.git", majorVersion: 0, minor: 5)
 	]
 )
 
+```
+
+- Build command
+
+```
+$ swift build -Xcc -I/usr/include/postgresql
 ```
 
 ## Community
