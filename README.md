@@ -10,7 +10,13 @@ CLibpq
 
 ## Installation
 
-- Install [`libpq`](http://www.postgresql.org/docs/9.1/static/libpq.html)
+- OSX
+
+```bash
+$ brew install postgresql
+```
+
+- Linux [`libpq`](http://www.postgresql.org/docs/9.1/static/libpq.html)
 
 ```bash
 $ apt-get install libpq-dev
@@ -29,9 +35,15 @@ let package = Package(
 
 ```
 
-- Build command
+- Build on OSX
 
+```bash
+$ swift build -Xcc -I/usr/local/include -Xlinker -L/usr/local/lib/
 ```
+
+- Build on Linux
+
+```bash
 $ swift build -Xcc -I/usr/include/postgresql
 ```
 
