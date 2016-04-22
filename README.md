@@ -8,6 +8,10 @@ CLibpq
 
 **CLibpq** provides PostgreSQL for **Swift 3.0**.
 
+## Documentation
+
+- libpq [`documentation`](http://www.postgresql.org/docs/9.1/static/libpq.html)
+
 ## Installation
 
 - OSX
@@ -16,7 +20,7 @@ CLibpq
 $ brew install postgresql
 ```
 
-- Linux [`libpq`](http://www.postgresql.org/docs/9.1/static/libpq.html)
+- Linux
 
 ```bash
 $ apt-get install libpq-dev
