@@ -1,10 +1,8 @@
-CLibpq
-======
+# CLibpq
 
-[![Swift 3.0](https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat)](https://swift.org)
-[![Platforms Linux](https://img.shields.io/badge/Platforms-Linux-lightgray.svg?style=flat)](https://swift.org)
-[![License MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat)](https://tldrlegal.com/license/mit-license)
-[![Slack Status](http://slack.zewo.io/badge.svg)](http://slack.zewo.io)
+[![Platform][platform-badge]][platform-url]
+[![License][mit-badge]][mit-url]
+[![Slack][slack-badge]][slack-url]
 
 **CLibpq** provides PostgreSQL for **Swift 3.0**.
 
@@ -56,11 +54,18 @@ $ swift build -Xcc -I/usr/include/postgresql
 
 ## Community
 
-[![Slack](http://s13.postimg.org/ybwy92ktf/Slack.png)](http://slack.zewo.io)
+[![Slack][slack-image]][slack-url]
 
-Join us on [Slack](http://slack.zewo.io).
+We have an amazing community of open and welcoming developers. Join us on [Slack][slack-url] to get to know us!
 
-License
--------
+## License
 
-**CLibpq** is released under the MIT license. See LICENSE for details.
+All **Zewo** modules are released under the MIT license. See LICENSE for details.
+
+[platform-badge]: https://img.shields.io/badge/Platform-Mac%20%26%20Linux-lightgray.svg?style=flat
+[platform-url]: https://swift.org
+[mit-badge]: https://img.shields.io/badge/License-MIT-blue.svg?style=flat
+[mit-url]: https://tldrlegal.com/license/mit-license
+[slack-image]: http://s13.postimg.org/ybwy92ktf/Slack.png
+[slack-badge]: https://zewo-slackin.herokuapp.com/badge.svg
+[slack-url]: http://slack.zewo.io
